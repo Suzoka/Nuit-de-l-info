@@ -1,0 +1,407 @@
+body{
+    width: 300vw;
+    height: 300vh;
+    animation: body-bg 3s infinite;
+    background-image: url('./assets/Minions-bg.webp');
+}
+
+
+#baaack{
+    text-decoration: none;
+    color: aliceblue;
+    top: 20px;
+    left: 10px;
+    position: absolute;
+}
+#h1{
+
+    color: blue;
+    animation: h1 2s infinite;
+}
+#question{
+    background-color: rgba(0, 255, 255, 0.541);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.taupe{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+.taupe-1{
+    position: absolute;
+    top: 10%;
+    animation: taupe-1 1s infinite;
+}
+
+#spooder-man{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+}
+
+.taupe-2{
+    position: absolute;
+    top: 20%;
+    right: 0;
+    animation: taupe-2 1s infinite;
+    animation-delay: 0.5s;
+}
+.arbre{
+    background-color: rgba(137, 43, 226, 0.534);
+    top: 0;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    animation:  arbrepng 4s infinite;
+}
+
+.left  {
+    left: 0;
+}
+
+.bordel{
+    top: 0;
+    left: 0;
+    position: absolute;
+    animation: bordel 5s infinite;
+}
+
+
+@keyframes bordel
+{
+    0%   {
+        rotate: 0deg;
+        background-color: red;
+        color: blue;
+    }
+
+    10% {
+        rotate: 180deg;
+        transform: translateX(200px);
+        margin-left: 600vw;
+    }
+
+    50% {
+        row-gap: 100px;
+        background-color: yellow;
+        color: red;
+        margin-left: 30vw;
+    }
+
+    100% {
+        background-color: blue;
+        color: yellow;
+        margin-left: 50vw;
+    }
+}
+
+@keyframes h1
+{
+    0%   {
+        color: blue;
+        background-color: red;
+        text-align: left
+    }
+
+    10% {
+        margin-top: 500px;
+        text-align: center;
+    }
+    
+    25%  {
+        color: red;
+        background-color: yellow;
+    }
+
+    35% {
+        text-align: right;
+    }
+
+    50%  {
+        color: yellow;
+        background-color: rgb(101, 101, 168);
+    }
+
+    60% {
+        text-align: center;
+    }
+    100% {
+        color: blueviolet;
+        background-color: green;
+        text-align: left;
+    }
+}
+
+
+@keyframes img-gru
+{
+    0%   {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+
+@keyframes arbrepng
+{
+    0%   {
+        
+        top: 0;
+        left: 0;
+        border: solid 20px black;
+    }
+    10% {
+        border: solid 10px yellow;
+    }
+
+    20% {
+        left: 100%;
+    }
+
+    25% {
+
+        top: 50%;
+        left: 50%;
+    }
+
+    30% {
+        border: 5px;
+        top: 50%;
+        left: 50%;
+    }
+
+    40% {
+        border: solid 50px purple;
+    }
+
+    50% {
+
+        border: springgreen 2px solid;
+        transform: rotate(180deg);
+        bottom: 0;
+        right: 40px;
+    }
+
+    60% {
+        border: solid 200px blue;
+        border: solid 2px black;
+        transform: rotate(360deg);
+        top: 0px;
+        right: 0px;
+    }
+
+    70% {
+
+        border: solid 2px black;
+        transform: rotate(360deg);
+        top: 0px;
+        right: 0px;
+    }
+
+    80% {
+
+        border: solid 200px black;
+        transform: rotate(360deg);
+        top: 0px;
+        right: 0px;
+    }
+
+    90% {
+
+    }
+
+    100% {
+
+        transform: rotate(360deg);
+        top: 0px;
+        right: 0px;
+    }
+
+}
+
+
+@keyframes taupe-1
+{
+    0%   {
+        left: 0;
+        top: 0;
+        opacity: 0;
+        background-color: saddlebrown;
+    }
+
+
+
+    10% {
+        opacity: 100;
+    }
+
+    20% {
+        opacity: 0;
+        background-color: seashell;
+    }
+
+    30% {
+        opacity: 100;
+    }
+
+    40% {
+        opacity: 0;
+        background-color: yellow;
+    }
+
+    50% {
+        left: 80%;
+        top: 50%;
+        opacity: 100;
+    }
+
+    60% {
+        opacity: 0;
+        background-color: greenyellow;
+    }
+
+    70% {
+        opacity: 100;
+    }
+
+    80% {
+        opacity: 0;
+        background-color: blue;
+    }
+
+    100% {
+        left: 100%;
+        top: 100%;
+        opacity: 100;
+    }
+
+}
+
+@keyframes taupe-2
+{
+    0%   {
+        right: 0;
+        top: 0;
+        opacity: 0;
+        background-color: saddlebrown;
+    }
+
+
+
+    10% {
+        opacity: 100;
+    }
+
+    20% {
+        opacity: 0;
+        background-color: seashell;
+    }
+
+    30% {
+        opacity: 100;
+    }
+
+    40% {
+        opacity: 0;
+        background-color: yellow;
+    }
+
+    50% {
+        right: 80%;
+        top: 50%;
+        opacity: 100;
+    }
+
+    60% {
+        opacity: 0;
+        background-color: greenyellow;
+    }
+
+    70% {
+        opacity: 100;
+    }
+
+    80% {
+        opacity: 0;
+        background-color: blue;
+    }
+
+    100% {
+        right: 100%;
+        top: 100%;
+        opacity: 100;
+    }
+
+}
+
+@keyframes body-bg
+{
+    0%   {
+        background-image: url('./assets/Minions-bg.webp');
+    }
+
+    10% {
+        background-image: url('./assets/forest-bg.webp');
+    }
+
+    20% {
+        background-image: url('./assets/nucleaire-bg.jpg');
+    }
+
+    30% {
+        background-image: url('./assets/koala-bg.avif');
+    }
+
+    40% {
+        background-image: url('./assets/chat-moche-bg.jpeg');
+    }
+
+    50% {
+        background-image: url('./assets/chat-moche-bg.jpeg');
+    }
+
+    60% {
+        background-image: url('./assets/koala-bg.avif');
+    }
+
+    70% {
+        background-image: url('./assets/koala-bg.avif');
+    }
+
+    80% {
+        background-image: url('./assets/forest-bg.webp');
+    }
+
+    90% {
+        background-image: url('./assets/Minions-bg.webp');
+    }
+
+    100% {
+        background-image: url('./assets/Minions-bg.webp');
+    }
+
+}
+
+
+#questionnaire{
+    z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999909999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.425);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
