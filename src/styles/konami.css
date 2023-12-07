@@ -2,7 +2,7 @@ body{
     width: 300vw;
     height: 300vh;
     animation: body-bg 3s infinite;
-    background-image: url('./assets/Minions-bg.webp');
+    background-image: url('../assets/Minions-bg.webp');
 }
 
 
@@ -349,47 +349,47 @@ body{
 @keyframes body-bg
 {
     0%   {
-        background-image: url('./assets/Minions-bg.webp');
+        background-image: url('../assets/Minions-bg.webp');
     }
 
     10% {
-        background-image: url('./assets/forest-bg.webp');
+        background-image: url('../assets/forest-bg.webp');
     }
 
     20% {
-        background-image: url('./assets/nucleaire-bg.jpg');
+        background-image: url('../assets/nucleaire-bg.jpg');
     }
 
     30% {
-        background-image: url('./assets/koala-bg.avif');
+        background-image: url('../assets/koala-bg.avif');
     }
 
     40% {
-        background-image: url('./assets/chat-moche-bg.jpeg');
+        background-image: url('../assets/chat-moche-bg.jpeg');
     }
 
     50% {
-        background-image: url('./assets/chat-moche-bg.jpeg');
+        background-image: url('../assets/chat-moche-bg.jpeg');
     }
 
     60% {
-        background-image: url('./assets/koala-bg.avif');
+        background-image: url('../assets/koala-bg.avif');
     }
 
     70% {
-        background-image: url('./assets/koala-bg.avif');
+        background-image: url('../assets/koala-bg.avif');
     }
 
     80% {
-        background-image: url('./assets/forest-bg.webp');
+        background-image: url('../assets/forest-bg.webp');
     }
 
     90% {
-        background-image: url('./assets/Minions-bg.webp');
+        background-image: url('../assets/Minions-bg.webp');
     }
 
     100% {
-        background-image: url('./assets/Minions-bg.webp');
+        background-image: url('../assets/Minions-bg.webp');
     }
 
 }
