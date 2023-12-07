@@ -38,7 +38,7 @@ document.addEventListener('keydown', function (e) {
 })
 
 function decrochonsLaLune() {
-    alert("cheats activated")
+    window.location.href = "./konamicode.html"
 }
 
 
