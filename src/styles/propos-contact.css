@@ -1,0 +1,15 @@
+main{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 100px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact a{
+    font-size: 1.8rem;
+    color: black;
+}
