@@ -40,7 +40,9 @@ nav a:hover {
 #logo{
     width: 100px;
 }
+
 /* Header section */
+
 header{
     font-family: 'Poppins', sans-serif;
     width: 100%;
@@ -61,7 +63,8 @@ header > h1 > span{
     color: #60B6FF;
 }
 
-header > button{
+header > a{
+    transition: 0.5s;
     position: absolute;
     top: 400px;
     left: 125px;
@@ -71,6 +74,13 @@ header > button{
     font-size: 2em;
     color: aliceblue;
     border: none;
+    text-decoration: none;
+}
+
+header > a:hover{
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #4F9BFF;
 }
 
 #illustration-header{
