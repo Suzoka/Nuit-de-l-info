@@ -15,7 +15,6 @@
 html{
     scroll-behavior: smooth;
     height: fit-content;
-    padding-bottom: 50px;
 }
 
 nav{
@@ -97,7 +96,7 @@ header a:hover{
 }
 
 #illustration-header{
-    width: 45%;
+    width: 35%;
     position: absolute;
     top: 75px;
     right: 50px;
@@ -109,6 +108,10 @@ header a:hover{
     bottom: 150px;
     left: 50%;
     animation: call_to_scroll 1s infinite;
+}
+
+#plus{
+    padding-top: 20px;
 }
 
 @keyframes call_to_scroll{
@@ -194,7 +197,7 @@ h2::after {
 .slide {
     width: 350px;
 
-    height: 750px;
+    height: 850px;
 
     border: solid 2px black;
     border-radius: 25px;
