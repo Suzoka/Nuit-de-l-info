@@ -97,10 +97,10 @@ header a:hover{
 }
 
 #illustration-header{
-    width: 50%;
+    width: 30%;
     position: absolute;
-    top: -250px;
-    right: -100px;
+    top: 120px;
+    right: 100px;
 }   
 
 #appel-scroll-header{

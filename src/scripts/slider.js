@@ -3,8 +3,12 @@ document.querySelector('.right').addEventListener("click", sliderRight);
 document.querySelector('.left').addEventListener("click", sliderLeft);
 
 function sliderRight() {
+<<<<<<< Updated upstream
     if (step == document.querySelectorAll('.slide').length - Math.trunc(window.window.innerWidth / 375)+1) {
 
+=======
+    if (step == document.querySelectorAll('.slide').length - Math.trunc(window.window.innerWidth / 375)+ 1) {
+>>>>>>> Stashed changes
         return
     }
     step++;
