@@ -57,7 +57,7 @@ header > h1 > span{
     color: #60B6FF;
 }
 
-header > button{
+header > a{
     transition: 0.5s;
     position: absolute;
     top: 400px;
@@ -68,12 +68,12 @@ header > button{
     font-size: 2em;
     color: aliceblue;
     border: none;
+    text-decoration: none;
 }
 
-header > button:hover{
+header > a:hover{
     cursor: pointer;
     scale: 1.1;
-    transition: 0.5s;
     background-color: #4F9BFF;
 }
 
