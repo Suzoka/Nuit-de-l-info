@@ -1,0 +1,42 @@
+[
+    {
+        "questions":[
+            {
+                "etape":"1",
+                "question":"Vous triez vos déchets comme un citoyen responsable, savez-vous ce qu'ils deviennent ? Que devient le plastique que vous triez ?",
+                "options":["Le plastique est totalement recyclé","Le plastique n'est pas totalement recyclé"],
+                "explication":"Selon une étude menée par la revue scientifique Science Advances, la plupart des déchets non recyclés finissent dans l’océan. C’est la première analyse à l'échelle mondiale à quantifier la totalité des matières plastiques produites, et à étudier le sort qui leur a été destiné. Sur les 8,3 milliards de tonnes métriques produites, 6,3 milliards se sont transformées en déchets plastiques. Seuls 9 % de ces déchets ont été recyclés. L'immense majorité, soit 79 %, est en train de s'amonceler sur les sites d'enfouissement des déchets ou se répand dans la nature sous forme de détritus. À un certain moment, la plupart d'entre eux finiront inéluctablement dans nos océans, sorte de dernier récipient."
+            },
+            {
+                "etape":"2",
+                "question":"Vous voulez vous adresser à vos futurs clients de manière écologique.",
+                "options":["vous utilisez son numéro et lui envoyez un message","vous envoyez un mail avec son adresse mail","vous attendez de le voir pour lui dire, il attendra !"],
+                "explication":"En 2020, les centres de données ont représenté environ 1% de la consommation mondiale d'électricité, et le secteur des technologies de l'information et des communications, y compris les e-mails, pourrait contribuer jusqu'à 4% des émissions mondiales de gaz à effet de serre. Ces chiffres soulignent l'impact significatif des activités numériques sur l'environnement."
+            },
+            {
+                "etape":"3",
+                "question":"Il vous faut un véhicule pour aller au travail, quel choix faire ?",
+                "options":["je sors le véhicule électrique, j’ai l'argent et ça pollue pas !","je sors la merco AMG GT, excusez moi","je prends les transports en communs"],
+                "explication":"En moyenne, selon plusieurs études, on estime que le point de rentabilité environnementale d'une voiture électrique par rapport à une voiture à moteur à combustion interne se situe généralement entre 20 000 et 100 000 kilomètres parcourus."
+            },
+            {
+                "etape":"4",
+                "question":"chef d’états vous êtes le président actuelle et avez le pleins pouvoir comment gérer les excès d'émission de CO2 ?",
+                "options":["gérer les naissances, moins d’humains moins de pollution","limiter la surconsommation, moins d’achats moins de CO2"],
+                "explication":"La surconsommation est souvent associée à une production de déchets élevée, selon le World Economic Forum, la quantité de déchets plastiques dans les océans pourrait tripler d'ici 2040 si des mesures ne sont pas prises pour réduire la production de plastique"
+            },
+            {
+                "etape":"5",
+                "question":"Vous souhaitez limiter vos émissions carbone, dans quelle énergie décidez-vous d’investir ?",
+                "options":["nucléaire","renouvelable","fossile"],
+                "explication":"en réalité la partie la plus polluante de la vie d’une centrale nucléaire est sa construction, pour productions égales les énergies renouvelables utilisent jusqu’à 16 fois plus de matériaux: le bilan CO2 du nucléaire est simplement le plus faible: en france c’est 10 fois moins que le solaire"
+            },
+            {
+                "etape":"6",
+                "question":"Selon vous combien de vêtements sont vendus chaque année dans le monde?",
+                "options":["plus de 5 millions","plus de 8 milliards"],
+                "explication":"Selon l'ADEME, plus de 100 milliards de vêtements sont vendus chaque année dans le monde. Une production synonyme d'un million d'emplois à l'échelle mondiale... Mais aussi de 4 milliards de tonnes de CO2e par an. Un parallèle qui illustre bien l'une des problématiques posées par la fast fashion."
+            }
+        ]
+        }
+]
