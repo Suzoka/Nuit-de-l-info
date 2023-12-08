@@ -1,5 +1,9 @@
 window.addEventListener('load', function () {
     let loader = this.document.getElementById("whenLoading");
-    loader.classList.add("disparait");
-    this.setTimeout(loader.style.display="hidden", 3000);
+    let image = this.document.getElementById("imageLoading");
+    image.classList.add("loaderZoom");
+    this.setTimeout(() => {
+        image.classList.remove("loaderZoom");
+        loader.classList.add("disparait")
+    }, 1000);
 })
