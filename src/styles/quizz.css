@@ -196,3 +196,29 @@ aside {
     height: 2%;
     border-radius: 30px;
 }
+
+.resultats{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(231, 242, 252);
+    z-index: 9999999;
+    display: none;
+    position: fixed;
+}
+
+.resultats > a{
+
+    text-decoration: none;
+    color: black;
+}
+
+.resultats > img {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.resultats > p{
+    text-align: center;
+    color: black;
+    font-size: 3em;
+}
