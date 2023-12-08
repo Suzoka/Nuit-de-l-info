@@ -5,11 +5,21 @@
 /* font-family: 'Poppins', sans-serif; */
 
 *{
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+<<<<<<< Updated upstream
+=======
+html{
+    scroll-behavior: smooth;
+    height: fit-content;
+    padding-bottom: 50px;
+}
+
+>>>>>>> Stashed changes
 nav{
     padding: 10px 5px;
     width: 100%;
@@ -23,7 +33,6 @@ nav{
 }
 
 nav a {
-    font-family: 'Poppins', sans-serif;
     color: black;
     font-size: 1.3em;
     text-decoration: none;
@@ -38,7 +47,6 @@ nav a {
 /* Header section */
 
 header{
-    font-family: 'Poppins', sans-serif;
     width: 100%;
     position: relative;
     height: 100vh;
@@ -146,4 +154,117 @@ h2::after {
     top: -38px;
     right: -70px;
     scale: 0.7;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+
+/*Slider */
+
+.hiddenbox {
+    overflow: hidden;
+    margin-top: 75px;
+    padding-top: 90px;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    position: relative;
+    gap: 50px;
+    left: 75px;
+    transition: 1s;
+}
+
+.slide {
+    width: 350px;
+    height: 750px;
+    border: solid 2px black;
+    border-radius: 25px;
+    padding: 10px 25px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.slide h3 {
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 60px;
+}
+
+.slide::after {
+    content: "";
+    display: block;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -275px;
+    right: -75px;
+    scale: 0.25;
+    /* z-index: 3000000; */
+}
+
+.slide:nth-child(1)::after {
+    background-image: url(../assets/nucleaire.png);
+}
+
+.slide:nth-child(2)::after {
+    background-image: url(../assets/pollution.png);
+}
+
+.slide:nth-child(3)::after {
+    background-image: url(../assets/achat.png);
+}
+
+.hiddenbox .left {
+    position: absolute;
+    rotate: 90deg;
+    left: 10px;
+    top: 55%;
+    transform: translateY(-50%);
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.hiddenbox .right {
+    position: absolute;
+    rotate: -90deg;
+    right: 10px;
+    top: 55%;
+    transform: translateY(-50%);
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.hiddenbox .left:hover, .hiddenbox .right:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+@media screen and (max-width: 1500px) {
+    #illustration-header {
+        display: none;
+    }        
+}
+
+@media screen and (max-width: 990px) { 
+    header > a.start {
+        top: 500px;
+    }   
+}
+
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  .animate-on-scroll.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+>>>>>>> Stashed changes
