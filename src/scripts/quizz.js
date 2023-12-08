@@ -59,17 +59,22 @@ function nextQuestion(data) {
         document.querySelector('#thirdRep').style.display = "none";
         document.querySelector('#forthRep').style.display = "block";
         document.querySelector('#forthRep').src = "./src/assets/quizz/" + question + "1.png";
+        document.querySelector('#forthRepHover p').innerHTML = data[question].options[0][0];
         document.querySelector('#fifthRep').style.display = "block";
         document.querySelector('#fifthRep').src = "./src/assets/quizz/" + question + "2.png";
+        document.querySelector('#fifthRepHover p').innerHTML = data[question].options[1][0];
 
     }
     else {
         document.querySelector('#firstRep').style.display = "block";
         document.querySelector('#firstRep').src = "./src/assets/quizz/" + question + "1.png";
+        document.querySelector('#firstRepHover p').innerHTML = data[question].options[0][0];
         document.querySelector('#secondRep').style.display = "block";
         document.querySelector('#secondRep').src = "./src/assets/quizz/" + question + "2.png";
+        document.querySelector('#secondRepHover p').innerHTML = data[question].options[1][0];
         document.querySelector('#thirdRep').style.display = "block";
         document.querySelector('#thirdRep').src = "./src/assets/quizz/" + question + "3.png";
+        document.querySelector('#thirdRepHover p').innerHTML = data[question].options[2][0];
         document.querySelector('#forthRep').style.display = "none";
         document.querySelector('#fifthRep').style.display = "none";
     }
