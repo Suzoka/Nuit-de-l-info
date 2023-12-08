@@ -34,7 +34,9 @@ nav a {
 #logo{
     width: 150px;
 }
+
 /* Header section */
+
 header{
     font-family: 'Poppins', sans-serif;
     width: 100%;
@@ -56,6 +58,7 @@ header > h1 > span{
 }
 
 header > button{
+    transition: 0.5s;
     position: absolute;
     top: 400px;
     left: 125px;
@@ -65,6 +68,13 @@ header > button{
     font-size: 2em;
     color: aliceblue;
     border: none;
+}
+
+header > button:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: 0.5s;
+    background-color: #4F9BFF;
 }
 
 #illustration-header{
