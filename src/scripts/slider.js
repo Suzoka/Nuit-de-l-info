@@ -3,7 +3,8 @@ document.querySelector('.right').addEventListener("click", sliderRight);
 document.querySelector('.left').addEventListener("click", sliderLeft);
 
 function sliderRight() {
-    if (step == document.querySelectorAll('.slide').length - Math.trunc(window.window.innerWidth / 375)) {
+    if (step == document.querySelectorAll('.slide').length - Math.trunc(window.window.innerWidth / 375)+1) {
+
         return
     }
     step++;

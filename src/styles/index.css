@@ -5,13 +5,17 @@
 /* font-family: 'Poppins', sans-serif; */
 
 *{
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+
 html{
     scroll-behavior: smooth;
+    height: fit-content;
+    padding-bottom: 50px;
 }
 
 nav{
@@ -27,7 +31,6 @@ nav{
 }
 
 nav a {
-    font-family: 'Poppins', sans-serif;
     color: black;
     font-size: 1.3em;
     text-decoration: none;
@@ -48,7 +51,6 @@ nav a:hover {
 /* Header section */
 
 header{
-    font-family: 'Poppins', sans-serif;
     width: 100%;
     position: relative;
     height: 95vh;
@@ -95,10 +97,11 @@ header a:hover{
 }
 
 #illustration-header{
-    width: 50%;
+    width: 45%;
     position: absolute;
-    top: -250px;
-    right: -100px;
+    top: 75px;
+    right: 50px;
+
 }   
 
 #appel-scroll-header{
@@ -164,7 +167,9 @@ h2::after {
     top: -36px;
     right: -70px;
     scale: 0.7;
+
 }
+
 
 
 /*Slider */
@@ -188,7 +193,9 @@ h2::after {
 
 .slide {
     width: 350px;
-    height: 380px;
+
+    height: 750px;
+
     border: solid 2px black;
     border-radius: 25px;
     padding: 10px 25px;
@@ -228,6 +235,26 @@ h2::after {
     background-image: url(../assets/achat.png);
 }
 
+.slide:nth-child(4)::after {
+    background-image: url(../assets/technologie.png);
+}
+
+.slide:nth-child(5)::after {
+    background-image: url(../assets/cycle_naturel.png);
+}
+
+.slide:nth-child(6)::after {
+    background-image: url(../assets/scientifique.png);
+}
+
+.slide:nth-child(7)::after {
+    background-image: url(../assets/irreversible.png);
+}
+
+.slide:nth-child(8)::after {
+    background-image: url(../assets/actions_individuelles.png);
+}
+
 .hiddenbox .left {
     position: absolute;
     rotate: 90deg;
@@ -264,3 +291,15 @@ h2::after {
         top: 500px;
     }   
 }
+
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  .animate-on-scroll.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
