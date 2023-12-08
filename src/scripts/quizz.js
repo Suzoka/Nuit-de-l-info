@@ -61,7 +61,7 @@ function testQuestion(rep, data) {
         document.querySelector('#forthRep').style.display = "none";
         document.querySelector('#fifthRep').style.display = "none";
 
-        document.querySelector('.resultats').style.position = "fixed";
+        document.querySelector('.resultats').style.display = "block";
         document.querySelector('.resultats p').innerHTML = "Vous avez " + score + " points/8 !";
         if (score < 4){
             document.querySelector('.resultats img').src = "./src/assets/ab.png"
