@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> </title>
-</head>
-<body>
-    
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kola</title>
+        <link rel="stylesheet" href="./src/styles/quizz.css">
+    </head>
+    <body>
+        <section id="quizzContainer">
+
+            <div id="questionContainer">
+                <div></div>
+                <p>Il vous faut un véhicule pour aller au travail, quel choix faire ?</p>
+                <img src="./src/assets/feuille.png">
+            </div>
+
+            <article id="reponseContainer">
+                <img src="./src/assets/chat-moche-bg.jpeg" id="chibi">
+
+                <img src="./src/assets/chat-moche-bg.jpeg" class="reponse" id="firstRep" onmousenter="moreInfo('firstRepHover', 'open')" onmouseout="moreInfo('thirdRepHover', 'close')">
+                <div class="infoHover" id="firstRepHover">
+                    <p>La surconsommation est souvent associée à une production de déchets élevée, selon le World Economic Forum, la quantité de déchets plastiques dans les océans pourrait tripler d'ici 2040 si des mesures ne sont pas prises pour réduire la production de plastique</p>
+                </div>
+
+                <img src="./src/assets/chat-moche-bg.jpeg" class="reponse" id="secondRep" onmousenter="moreInfo('secondRepHover', 'open')" onmouseout="moreInfo('thirdRepHover', 'close')">
+                <div class="infoHover" id="secondRepHover">
+                    <p>La surconsommation est souvent associée à une production de déchets élevée, selon le World Economic Forum, la quantité de déchets plastiques dans les océans pourrait tripler d'ici 2040 si des mesures ne sont pas prises pour réduire la production de plastique</p>
+                </div>
+
+                <img src="./src/assets/chat-moche-bg.jpeg" class="reponse" id="thirdRep" onmousenter="moreInfo('thirdRepHover', 'open')" onmouseout="moreInfo('thirdRepHover', 'close')">
+                <div class="infoHover" id="thirdRepHover">
+                    <p>La surconsommation est souvent associée à une production de déchets élevée, selon le World Economic Forum, la quantité de déchets plastiques dans les océans pourrait tripler d'ici 2040 si des mesures ne sont pas prises pour réduire la production de plastique</p>
+                </div>
+
+                <aside>
+                    <div id="cercle1" class="circle active"></div>
+                    <div id="cercle2" class="circle"></div>
+                    <div id="cercle3" class="circle"></div>
+                    <div id="cercle4" class="circle"></div>
+                    <div id="cercle5" class="circle"></div>
+                    <div id="cercle6" class="circle"></div>
+                </aside>
+
+            </article>
+
+            <div id="blueBar"></div>
+        </section>
+        <script src="./src/scripts/quizz.js"></script>
+    </body>
+<<<<<<< Updated upstream
 </html>
+=======
+</html>
+>>>>>>> Stashed changes
