@@ -97,10 +97,11 @@ header a:hover{
 }
 
 #illustration-header{
-    width: 30%;
+    width: 45%;
     position: absolute;
-    top: 120px;
-    right: 100px;
+    top: 75px;
+    right: 50px;
+
 }   
 
 #appel-scroll-header{
@@ -169,7 +170,6 @@ h2::after {
 
 }
 
-}
 
 
 /*Slider */
@@ -193,7 +193,9 @@ h2::after {
 
 .slide {
     width: 350px;
+
     height: 750px;
+
     border: solid 2px black;
     border-radius: 25px;
     padding: 10px 25px;
@@ -231,6 +233,26 @@ h2::after {
 
 .slide:nth-child(3)::after {
     background-image: url(../assets/achat.png);
+}
+
+.slide:nth-child(4)::after {
+    background-image: url(../assets/technologie.png);
+}
+
+.slide:nth-child(5)::after {
+    background-image: url(../assets/cycle_naturel.png);
+}
+
+.slide:nth-child(6)::after {
+    background-image: url(../assets/scientifique.png);
+}
+
+.slide:nth-child(7)::after {
+    background-image: url(../assets/irreversible.png);
+}
+
+.slide:nth-child(8)::after {
+    background-image: url(../assets/actions_individuelles.png);
 }
 
 .hiddenbox .left {
@@ -280,5 +302,4 @@ h2::after {
     transform: translateY(0);
   }
 
-}
 
