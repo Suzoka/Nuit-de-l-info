@@ -1,14 +1,8 @@
-
-
 function moreInfo(info, state){
-    let info = document.getElementById(info);
+    let infoBulle = document.getElementById(info);
     if (state == "open") {
-        info.style.display = "flex";
+        infoBulle.style.display = "flex";
     } else {
-        info.style.display = "none";
+        infoBulle.style.display = "none";
     }
 }
-
-
-/* HTML section */
-
