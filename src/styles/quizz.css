@@ -34,6 +34,8 @@ html, body {
     color: #000;
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
+    max-width: 1100px;
+    text-align: center;
 }
 
 #questionContainer > img {
@@ -62,7 +64,13 @@ html, body {
     position: absolute;
     border-radius: 100%;
     padding: 10px;
-    border: 2px solid #000
+    border: 2px solid #000;
+    transition : transform 0.3s
+}
+
+.reponse:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .infoHover {
@@ -79,6 +87,7 @@ html, body {
     display: none;
 }
 
+
 .infoHover > p {
     margin: 0;
 }
@@ -88,9 +97,14 @@ html, body {
 }
 
 #firstRep {
-    top: 5px;
+    top: 10px;
     left: 50%;
     transform: translateX(-50%);
+    transition: transform 0.3s;
+}
+
+#firstRep:hover{
+    transform: translateX(-50%) scale(1.05);
 }
 
 #firstRepHover {
@@ -118,6 +132,38 @@ html, body {
     left: 10px;
 }
 
+#forthRep {
+    bottom: 50%;
+    left: 25%;
+    transform: translateY(50%);
+}
+
+#forthRep:hover{
+    transform: translateY(50%) scale(1.05);
+}
+
+#forthRepHover {
+    bottom: 80%;
+    left: 2%;
+    transform: translateY(50%);
+}
+
+#fifthRep {
+    bottom: 50%;
+    right: 25%;
+    transform: translateY(50%);
+}
+
+#fifthRep:hover{
+    transform: translateY(50%) scale(1.05);
+}
+
+#fifthRepHover {
+    bottom: 80%;
+    right: 2%;
+    transform: translateY(50%);
+}
+
 aside {
     display: flex;
     flex-direction: column;
@@ -140,8 +186,8 @@ aside {
 
 .active {
     background-color: #60B6FF;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
 }
 
 #blueBar {
