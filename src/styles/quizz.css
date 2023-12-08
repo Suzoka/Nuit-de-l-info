@@ -222,3 +222,10 @@ aside {
     color: black;
     font-size: 3em;
 }
+
+#questionContainer>div>img {
+    position: relative;
+    top: -45%;
+    left: -42%;
+    scale: 0.7;
+}

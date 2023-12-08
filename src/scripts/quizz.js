@@ -26,6 +26,30 @@ fetch('./src/data.json').then(function (response) {
 
 function nextQuestion(data) {
     document.querySelector('.question').innerHTML = data[question].question;
+
+    switch (question) {
+        case 0:
+        case 1:
+            document.querySelector('#chibi').src = "./src/assets/baby.png";
+            document.querySelector('#questionContainer>div>img').src = "./src/assets/baby.png";
+            break;
+        case 2:
+        case 3:
+            document.querySelector('#chibi').src = "./src/assets/ado.png";
+            document.querySelector('#questionContainer>div>img').src = "./src/assets/ado.png";
+            break;
+        case 4:
+        case 5:
+            document.querySelector('#chibi').src = "./src/assets/youngAdulte.png";
+            document.querySelector('#questionContainer>div>img').src = "./src/assets/youngAdulte.png";
+            break;
+        case 6:
+        case 7:
+            document.querySelector('#chibi').src = "./src/assets/adulte.png";
+            document.querySelector('#questionContainer>div>img').src = "./src/assets/adulte.png";
+            break;
+    }
+
     document.querySelector('.active').classList.remove('active');
     let cercle = "#cercle" + (question+1);
     document.querySelector(cercle).classList.add('active');
