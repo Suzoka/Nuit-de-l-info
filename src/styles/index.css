@@ -25,14 +25,20 @@ nav{
 nav a {
     font-family: 'Poppins', sans-serif;
     color: black;
-    font-size: 1.7em;
+    font-size: 1.3em;
     text-decoration: none;
     display: flex;
     align-items: center;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    scale: 1.1;
+    color: #3EAD5A;
 }
 
 #logo{
-    width: 150px;
+    width: 100px;
 }
 
 
@@ -52,14 +58,14 @@ h2::before {
     content: "";
     display: block;
     width: 150px;
-    height: 75px;
+    height: 90px;
     background-image: url(../assets/logo.png);
     background-size: cover;
     background-position: center;
     position: absolute;
-    top: -13px;
+    top: -21px;
     left: -25px;
-    scale: 0.6;
+    scale: 0.4;
 }
 
 h2::after {
@@ -71,7 +77,7 @@ h2::after {
     background-size: cover;
     background-position: center;
     position: absolute;
-    top: -38px;
+    top: -36px;
     right: -70px;
     scale: 0.7;
 }
