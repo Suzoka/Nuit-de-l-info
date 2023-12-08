@@ -7,11 +7,13 @@ body{
 
 
 #baaack{
+    font-size: 2px;
     text-decoration: none;
     color: aliceblue;
     top: 20px;
     left: 10px;
     position: absolute;
+    animation: cheh 2s infinite;
 }
 #h1{
 
@@ -136,23 +138,40 @@ body{
     }
 }
 
-
-@keyframes img-gru
+@keyframes cheh
 {
     0%   {
-        transform: rotate(0deg);
+        color: blue;
+        background-color: red;
     }
 
-    50% {
-        transform: rotate(180deg);
+    10% {
+        
+
+    }
+    
+    25%  {
+        color: red;
+        background-color: yellow;
     }
 
+    35% {
+
+    }
+
+    50%  {
+        color: yellow;
+        background-color: rgb(101, 101, 168);
+    }
+
+    60% {
+
+    }
     100% {
-        transform: rotate(360deg);
+        color: blueviolet;
+        background-color: green;
     }
-
 }
-
 
 @keyframes arbrepng
 {
