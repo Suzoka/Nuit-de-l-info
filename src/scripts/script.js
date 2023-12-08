@@ -6,4 +6,7 @@ window.addEventListener('load', function () {
         image.classList.remove("loaderZoom");
         loader.classList.add("disparait")
     }, 1000);
+    this.setTimeout(() => {
+        loader.style.display="none"
+    }, 2500);
 })
